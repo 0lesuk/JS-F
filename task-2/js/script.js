@@ -59,7 +59,7 @@ if (sideA <= 0 || sideB <= 0 || sideC <= 0 || sideA + sideB <= sideC || sideA + 
 } else {
 
   let semiperimeter = (sideA + sideB + sideC) / 2;
-  let triangleArea = Math.sqrt(semiperimeter * (semiperimeter - sideA) * (semiperimeter - sideB) * (semiperimeter - sideC)); // площа трикутника
+  let triangleArea = Math.sqrt(semiperimeter * (semiperimeter - sideA) * (semiperimeter - sideB) * (semiperimeter - sideC));
   console.log("Площа трикутника: " + triangleArea.toFixed(3));
 
   if (sideA * sideA + sideB * sideB === sideC * sideC || sideA * sideA + sideC * sideC === sideB * sideB || sideB * sideB + sideC * sideC === sideA * sideA) {
